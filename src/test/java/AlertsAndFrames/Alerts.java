@@ -46,7 +46,7 @@ public class Alerts {
 		}
 		
 		
-		
+		Thread.sleep(3000);
 		driver.quit();
 	}
 
