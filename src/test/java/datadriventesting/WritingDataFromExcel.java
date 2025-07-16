@@ -14,8 +14,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class WritingDataFromExcel {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
-		
+				
 		FileOutputStream file=new FileOutputStream(System.getProperty("user.dir")+"\\data\\writing.xlsx"); 
 		
 		XSSFWorkbook workbook=new XSSFWorkbook();
